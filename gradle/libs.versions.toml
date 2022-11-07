@@ -1,0 +1,9 @@
+[versions]
+kotlin = "1.7.10"
+mockk = "1.13.2"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.android", version = "kotlin" }
+
+[libraries]
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
